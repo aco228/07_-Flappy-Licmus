@@ -1,0 +1,65 @@
+#najbolji_rezultati{
+	margin-top: 10px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+#najbolji_rezultati_holder{
+	position: relative;
+	margin-top: 10px;
+	height: 260px;
+	overflow: hidden;
+}
+	#najbolji_rezultati_holder_loading{
+		position: absolute; width: 100%; height: 100%; background-color: rgba(255,255,255,0.7); z-index: 50;
+		left: 0px; right: 0px
+	}
+	#najbolji_rezultati_holder_stranica{position: absolute; width: 100%; height: 100%;}
+	#najbolji_rezultati_holder_prikaz{position: absolute; width: 100%; height: 100%;}
+
+	.rez_igrac{
+		position: relative;
+		background-color: #b0b8cd;
+		font-size: 14px; color: #2E2A4B;
+		height: 25px;
+		margin-bottom: 1px;
+		cursor: hand; cursor: pointer;
+	}
+		.rez_friend { opacity: 1; }
+		.rez_me{ background-color: #93C1E5; }
+		.rez_gold{ background-color: #fdd64f; }
+		.rez_silver{ background-color: #b0cdb7; }
+
+		.rez_klasa{position: absolute; height: 100%; line-height: 25px;}
+		.rez_br{
+			width: 50px; text-align: center;
+		}
+		.rez_slika{
+			left: 52px; width: 25px;
+			background-color: #FFF;
+			
+			background-size: cover;
+		}
+		.rez_ime{
+			width: 350px;
+			left: 95px;
+		}
+		.rez_bodovi{ 
+			right: 0px; width: 150px; 
+			text-align: center;
+			background-color: rgba(255, 255, 255, 0.2);
+		}
+
+#najbolji_rezultati_btns_holder{
+	margin-top: 3px;
+	position: relative;
+	width: 100%; height: 25px;
+}
+.najbolji_rezultati_btns{
+	position: absolute;
+	width: 290px; height: 20px;
+	background-color: #bfc5d6;
+	text-align: center;
+	cursor: hand; cursor: pointer;bfc5d6
+}
+	#najbolji_rezultati_minus{ left: 0px; }
+	#najbolji_rezultati_plus{ right: 0px; }
